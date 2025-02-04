@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#basic-info{
+  height: 400px;
+  background-color: red;
+}
+
+#more-info{
+  height: 400px;
+  background-color: blue;
+}
+
+#gallery{
+  height: 400px;
+  background-color: green;
+}
