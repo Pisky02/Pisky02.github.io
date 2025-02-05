@@ -1,12 +1,12 @@
 function Header() {
-  const scrollToContact = () => {
+  /*const scrollToSection = () => {
     /**
      * Najdu vysku headeru
      * najdu contact section
      * nejdu margin nad contact section
      * zjistim kde je contact info na strance
      * vypocitam kam musim az musim scrollnout
-     * */
+     * *
     const header = document.getElementById("header");
     if (header) {
       const headerHeight = header.offsetHeight;
@@ -25,11 +25,17 @@ function Header() {
         });
       }
     }
+  };*/
+  const scrollToSection = (id) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
     <header id="header" className="header">
-      <button className="contact-button" onClick={scrollToContact}>
+      <button
+        className="scroll-button"
+        onClick={() => scrollToSection("gallery")}
+      >
         fotky
       </button>
     </header>
