@@ -11,7 +11,7 @@ function Header() {
         className="home"
         style={{
           height: "100vh",
-          width: "auto",
+          width: "100%",
           backgroundImage: `url(${bgImage})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
