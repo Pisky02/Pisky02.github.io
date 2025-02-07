@@ -1,5 +1,3 @@
-import bgImage from "/coupleImage.png";
-
 function Header() {
   const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
@@ -7,29 +5,22 @@ function Header() {
 
   return (
     <header id="header" className="header">
-      <div
-        className="home"
-        style={{
-          height: "100vh",
-          width: "100vw",
-          backgroundImage: `url(${bgImage})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-        }}
-      >
-        <button
-          className="scroll-button"
-          onClick={() => scrollToSection("basic-info")}
-        >
-          zakladni info
-        </button>
-        <button
-          className="scroll-button"
-          onClick={() => scrollToSection("gallery")}
-        >
-          fotky
-        </button>
+      <div className="home">
+        <div className="buttons">
+          <button
+            className="scroll-button"
+            onClick={() => scrollToSection("basic-info")}
+          >
+            zakladni info
+          </button>
+          <button
+            className="scroll-button"
+            onClick={() => scrollToSection("gallery")}
+          >
+            fotky
+          </button>
+        </div>
+        <img src="homeImage.png" className="home-image"></img>
       </div>
     </header>
   );

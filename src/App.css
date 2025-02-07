@@ -3,19 +3,21 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+
 }
 
+.home-image{
+
+height: 32rem;
+}
 #basic-info{
-  height: 400px;
-  background-color: red;
+  height: 28rem;
 }
 
 #more-info{
-  height: 400px;
-  background-color: blue;
+  height: 28rem;
 }
 
 #gallery{
-  height: 400px;
-  background-color: green;
+  height: 28rem;
 }
