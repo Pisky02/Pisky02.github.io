@@ -20,7 +20,7 @@ function Header() {
             fotky
           </button>
         </div>
-        <img src="homeImage.png" className="home-image"></img>
+        <img src="SvatbaLogo.png" className="home-image"></img>
       </div>
     </header>
   );
