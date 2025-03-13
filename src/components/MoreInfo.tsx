@@ -1,13 +1,7 @@
 function MoreInfo() {
   return (
-    <div id="more-info">
-      <h2>Vic info o svatbe.</h2>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus,
-        optio nihil! Quisquam at, laborum itaque illo temporibus ea ullam eaque
-        voluptatibus eos nobis commodi natus consequuntur sequi enim voluptate
-        quibusdam.
-      </p>
+    <div id="more-info" className="p-16 min-h-120">
+      <h1>Vic info o svatbe.</h1>
     </div>
   );
 }
